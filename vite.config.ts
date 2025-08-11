@@ -61,7 +61,7 @@ export default defineConfig({
         },
         sw_plugin(),
     ],
-    base: "./",
+    base: "/lrc-maker-mobile/",
     define: {
         "import.meta.env.app": JSON.stringify({ hash, updateTime, version: pkg.version }),
         "i18n.langCodeList": JSON.stringify(langFileList.map((f) => f.slice(0, -json_suffix.length))),
@@ -85,6 +85,13 @@ export default defineConfig({
                         return "sw.js";
                     }
                     return "assets/[name]-[hash].js";
+                },
+                chunkFileNames: "assets/[name]-[hash].js",
+                assetFileNames: (assetInfo) => {
+                    if (assetInfo.name?.endsWith('.css')) {
+                        return "assets/[name]-[hash].css";
+                    }
+                    return "assets/[name]-[hash].[ext]";
                 },
             },
         },
