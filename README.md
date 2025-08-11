@@ -133,4 +133,5 @@ If you like give us a star :star: Also share this project to help more people.
 ---
 
 [lrc maker]: https://Satoshi5884.github.io/lrc-maker-mobile/
+[lrc maker mobile]: https://Satoshi5884.github.io/lrc-maker-mobile/
 [version 3.x]: https://lrc-maker.github.io/3.x

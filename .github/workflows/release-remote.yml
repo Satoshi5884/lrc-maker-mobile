@@ -16,20 +16,23 @@ jobs:
             - name: Setup Node.js
               uses: actions/setup-node@v4
               with:
-                  node-version-file: ".node-version"
+                  node-version: 20
 
-            - name: Install dependencies
+            - name: Setup PNPM and install deps
               uses: pnpm/action-setup@v2
               with:
+                  version: 10.11.0
                   run_install: |
                       - args: [--frozen-lockfile, --strict-peer-dependencies]
 
-            - run: pnpm run "/check\:/"
+            - run: pnpm run check:fmt
+            - run: pnpm run check:lint
             - run: pnpm run build
 
             - name: Deploy to https://Satoshi5884.github.io/lrc-maker-mobile/
               uses: peaceiris/actions-gh-pages@v3
               with:
                   github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_branch: gh-pages
                   publish_dir: ./build
                   force_orphan: true
