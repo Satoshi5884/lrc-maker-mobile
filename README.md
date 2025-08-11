@@ -10,7 +10,7 @@
 
 </div>
 
-# [LRC Maker][lrc maker] &middot; [![Build](https://github.com/Satoshi5884/lrc-maker-mobile/actions/workflows/build.yml/badge.svg)](https://github.com/Satoshi5884/lrc-maker-mobile/actions/workflows/build.yml)
+# [LRC Maker mobile][lrc maker mobile] &middot; [![Build](https://github.com/Satoshi5884/lrc-maker-mobile/actions/workflows/build.yml/badge.svg)](https://github.com/Satoshi5884/lrc-maker-mobile/actions/workflows/build.yml)
 
 ## LRC Maker Mobile について
 
