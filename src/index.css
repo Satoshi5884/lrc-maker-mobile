@@ -12,7 +12,7 @@
 @import url("./components/asidepanel.css");
 @import url("./components/audio.css");
 @import url("./components/loadaudio.css");
-@import url("toggle-switch-css/src/toggle-switch.css");
+@import url("../node_modules/toggle-switch-css/src/toggle-switch.css");
 @import url("./components/preferences.css");
 @import url("./components/gist.css");
 @import url("./components/toast.css");
