@@ -1,0 +1,12 @@
+{
+    "permissions": {
+        "allow": [
+            "Bash(gh run list:*)",
+            "Bash(pnpm install:*)",
+            "Bash(npm install:*)",
+            "Bash(pnpm run check:fmt:*)",
+            "Bash(pnpm run:*)"
+        ],
+        "deny": []
+    }
+}
