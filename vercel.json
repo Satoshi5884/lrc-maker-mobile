@@ -1,7 +1,10 @@
 {
     "version": 2,
+    "buildCommand": "pnpm run build",
+    "outputDirectory": "dist",
     "rewrites": [
         { "source": "/lrc-utils/", "destination": "https://lrc-utils.vercel.app/index.html" },
-        { "source": "/lrc-utils/:match*", "destination": "https://lrc-utils.vercel.app/:match*" }
+        { "source": "/lrc-utils/:match*", "destination": "https://lrc-utils.vercel.app/:match*" },
+        { "source": "/(.*)", "destination": "/index.html" }
     ]
 }

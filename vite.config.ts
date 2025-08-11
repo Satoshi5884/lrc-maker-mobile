@@ -61,7 +61,7 @@ export default defineConfig({
         },
         sw_plugin(),
     ],
-    base: "/lrc-maker-mobile/",
+    base: "./",
     define: {
         "import.meta.env.app": JSON.stringify({ hash, updateTime, version: pkg.version }),
         "i18n.langCodeList": JSON.stringify(langFileList.map((f) => f.slice(0, -json_suffix.length))),
@@ -73,7 +73,7 @@ export default defineConfig({
     build: {
         minify: true,
         cssMinify: "lightningcss",
-        outDir: "build",
+        outDir: "dist",
         modulePreload: {
             polyfill: false,
         },

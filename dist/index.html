@@ -20,6 +20,10 @@
         <meta name="theme-color" content="#484848" />
         <meta name="msapplication-config" content="./favicons/browserconfig.xml" />
         <meta name="apple-mobile-web-app-title" content="灯里的歌词滚动姬" />
+      <script type="module" crossorigin src="./assets/index-BJn5fyx5.js"></script>
+      <link rel="stylesheet" crossorigin href="./assets/index-CdApakX-.css">
+      <script src="//cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js" integrity="sha256-2Unxw2h67a3O2shSYYZfKbF80nOZfn9rK/xTsvnUxN0=" crossorigin="anonymous"></script>
+      <script src="//cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js" integrity="sha256-NfT5dPSyvNRNpzljNH+JUuNB+DkJ5EmCJ9Tia5j2bw0=" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="app-container">
@@ -32,6 +36,19 @@
                 />
             </div>
         </div>
-        <script type="module" src="./src/index.ts"></script>
+      <script>if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("./sw.js").then(
+        (registration) => {
+            // Registration was successful
+            registration.update();
+            console.log("ServiceWorker Registed (｡･ω･｡)ﾉ: ", registration.scope);
+        },
+        (err) => {
+            // registration failed :(
+            console.log("ServiceWorker registration failed ( ꒪﹃ ꒪) ", err);
+        },
+    );
+}
+</script>
     </body>
 </html>
