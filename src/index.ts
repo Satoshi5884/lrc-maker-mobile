@@ -4,6 +4,7 @@ import { createElement } from "react";
 // eslint-disable-next-line react/no-deprecated
 import { render } from "react-dom";
 import { App } from "./components/app.js";
+import "./index.css";
 
 if (!("scrollBehavior" in document.documentElement.style)) {
     import("./polyfill/smooth-scroll.js");
