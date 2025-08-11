@@ -12,6 +12,30 @@
 
 # [LRC Maker][lrc maker] &middot; [![Build](https://github.com/magic-akari/lrc-maker/actions/workflows/build.yml/badge.svg)](https://github.com/magic-akari/lrc-maker/actions/workflows/build.yml)
 
+## LRC Maker Mobile について
+
+このリポジトリはオリジナルの[LRC Maker][lrc maker]をフォークしたモバイル対応版（LRC Maker Mobile）です。
+
+- 変更点: スマートフォンでの操作時に、スペースキー相当の「space」ボタンの表示位置のみを調整しました。
+
+その他の機能や挙動はオリジナルと同一です。
+
+### LRC Maker Mobile (English)
+
+This repository is a mobile-adapted fork of the original [LRC Maker][lrc maker] (LRC Maker Mobile).
+
+- Change: Only adjusted the on-screen "space" button position for smartphone usage.
+
+All other features and behaviors remain the same as the original.
+
+### LRC Maker Mobile（中文）
+
+本仓库是原始的[LRC Maker][lrc maker]的移动端适配分支（LRC Maker Mobile）。
+
+- 变更：仅在手机操作时，调整了页面中“space”按钮的位置。
+
+其他功能与原版保持一致。
+
 ## What is this
 
 This is a tool for creating scrolling lrc files, which refers to text with time tags.
