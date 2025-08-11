@@ -21,6 +21,12 @@
     border-bottom: 1px dashed var(--theme-color);
 }
 
+@media (width <= 768px) {
+    .space-button {
+        bottom: 80px;
+    }
+}
+
 .space-button:active {
     border-bottom-style: solid;
 }
