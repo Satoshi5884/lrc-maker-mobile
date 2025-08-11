@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://lrc-maker.github.io">
+    <a href="https://Satoshi5884.github.io/lrc-maker-mobile/">
         <img src="./public/favicons/apple-touch-icon.png" alt="logo" />
     </a>
 </p>
@@ -10,7 +10,7 @@
 
 </div>
 
-# [歌词滚动姬][lrc maker] &middot; [![Build](https://github.com/magic-akari/lrc-maker/actions/workflows/build.yml/badge.svg)](https://github.com/magic-akari/lrc-maker/actions/workflows/build.yml)
+# [歌词滚动姬][lrc maker] &middot; [![Build](https://github.com/Satoshi5884/lrc-maker-mobile/actions/workflows/build.yml/badge.svg)](https://github.com/Satoshi5884/lrc-maker-mobile/actions/workflows/build.yml)
 
 ## 这个项目是什么
 
@@ -26,7 +26,7 @@
 
 开发分支版本链接:
 
-- https://magic-akari.github.io/lrc-maker/
+- https://Satoshi5884.github.io/lrc-maker-mobile/
 - https://lrc-maker.vercel.app/
 
 ## 热键
@@ -74,9 +74,9 @@ IE 等旧浏览器不再支持。对于这类浏览器使用者，可以使用�
 
 ```bash
 # 克隆这个仓库
-git clone https://github.com/magic-akari/lrc-maker.git
+git clone https://github.com/Satoshi5884/lrc-maker-mobile.git
 
-cd lrc-maker
+cd lrc-maker-mobile
 
 # 安装依赖
 npm i
@@ -107,5 +107,5 @@ docker run -d -p 8080:80 lrc-maker
 
 如果你喜欢这个项目，请点一个星星吧 :star:，同时分享这个项目来帮助更多的人。
 
-[lrc maker]: https://lrc-maker.github.io
+[lrc maker]: https://Satoshi5884.github.io/lrc-maker-mobile/
 [version 3.x]: https://lrc-maker.github.io/3.x

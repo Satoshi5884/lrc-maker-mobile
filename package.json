@@ -2,8 +2,8 @@
     "name": "lrc-maker",
     "version": "6.0.0",
     "description": "歌词滚动姬｜可能是你所能见到的最好用的歌词制作工具",
-    "repository": "https://github.com/magic-akari/lrc-maker.git",
-    "author": "magic-akari <akari.ccino@gmail.com>",
+    "repository": "https://github.com/Satoshi5884/lrc-maker-mobile.git",
+    "author": "Satoshi5884",
     "license": "MIT",
     "keywords": [
         "lrc",
@@ -11,8 +11,8 @@
         "lyric",
         "lyric maker"
     ],
-    "bugs": "https://github.com/magic-akari/lrc-maker/issues",
-    "homepage": "https://github.com/magic-akari/lrc-maker#readme",
+    "bugs": "https://github.com/Satoshi5884/lrc-maker-mobile/issues",
+    "homepage": "https://Satoshi5884.github.io/lrc-maker-mobile/",
     "files": [
         "src",
         "build"

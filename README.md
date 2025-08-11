@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://lrc-maker.github.io">
+    <a href="https://Satoshi5884.github.io/lrc-maker-mobile/">
         <img src="./public/favicons/apple-touch-icon.png" alt="logo" />
     </a>
 </p>
@@ -10,7 +10,7 @@
 
 </div>
 
-# [LRC Maker][lrc maker] &middot; [![Build](https://github.com/magic-akari/lrc-maker/actions/workflows/build.yml/badge.svg)](https://github.com/magic-akari/lrc-maker/actions/workflows/build.yml)
+# [LRC Maker][lrc maker] &middot; [![Build](https://github.com/Satoshi5884/lrc-maker-mobile/actions/workflows/build.yml/badge.svg)](https://github.com/Satoshi5884/lrc-maker-mobile/actions/workflows/build.yml)
 
 ## LRC Maker Mobile について
 
@@ -50,7 +50,7 @@ Click [lrc-maker][lrc maker] to start. You can add the link to browser bookmark.
 
 Development branch links:
 
-- https://magic-akari.github.io/lrc-maker/
+- https://Satoshi5884.github.io/lrc-maker-mobile/
 - https://lrc-maker.vercel.app/
 
 ## Hotkeys
@@ -97,9 +97,9 @@ If you want to run this project on your computer locally, follow the tips.
 
 ```bash
 # clone this repo
-git clone https://github.com/magic-akari/lrc-maker.git
+git clone https://github.com/Satoshi5884/lrc-maker-mobile.git
 
-cd lrc-maker
+cd lrc-maker-mobile
 
 # install dependencies
 npm i
@@ -132,5 +132,5 @@ If you like give us a star :star: Also share this project to help more people.
 
 ---
 
-[lrc maker]: https://lrc-maker.github.io
+[lrc maker]: https://Satoshi5884.github.io/lrc-maker-mobile/
 [version 3.x]: https://lrc-maker.github.io/3.x

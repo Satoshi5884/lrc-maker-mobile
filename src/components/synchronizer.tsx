@@ -41,7 +41,7 @@ export const Synchronizer: React.FC<ISynchronizerProps> = ({ state, dispatch }) 
             type: ActionType.info,
             payload: {
                 name: "tool",
-                value: `${lang.app.name} https://lrc-maker.github.io`,
+                value: `${lang.app.name} https://Satoshi5884.github.io/lrc-maker-mobile/`,
             },
         });
     }, [dispatch, lang]);

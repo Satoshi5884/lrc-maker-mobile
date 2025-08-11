@@ -1,4 +1,4 @@
-name: Release https://lrc-maker.github.io and npm
+name: Release https://Satoshi5884.github.io/lrc-maker-mobile/
 
 on:
     push:
@@ -27,11 +27,9 @@ jobs:
             - run: pnpm run "/check\:/"
             - run: pnpm run build
 
-            - name: Deploy to lrc-maker.github.io
+            - name: Deploy to https://Satoshi5884.github.io/lrc-maker-mobile/
               uses: peaceiris/actions-gh-pages@v3
               with:
-                  personal_token: ${{ secrets.GHP_TOKEN }}
-                  external_repository: lrc-maker/lrc-maker.github.io
-                  publish_branch: master
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
                   publish_dir: ./build
                   force_orphan: true
