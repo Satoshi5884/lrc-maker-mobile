@@ -50,8 +50,7 @@ Click [lrc-maker][lrc maker] to start. You can add the link to browser bookmark.
 
 Development branch links:
 
-- https://Satoshi5884.github.io/lrc-maker-mobile/
-- https://lrc-maker.vercel.app/
+- https://lrc-maker-mobile.vercel.app/
 
 ## Hotkeys
 

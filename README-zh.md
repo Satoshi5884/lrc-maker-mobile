@@ -26,8 +26,7 @@
 
 开发分支版本链接:
 
-- https://Satoshi5884.github.io/lrc-maker-mobile/
-- https://lrc-maker.vercel.app/
+- https://lrc-maker-mobile.vercel.app/
 
 ## 热键
 
